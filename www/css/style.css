@@ -11,6 +11,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: lemonYellowSun;
     src: url('../fonts/dk_lemon_yellow_sun/dk_lemon_yellow_sun.otf');
 }
+.nomargin {
+    margin: 0px !Important;
+}
+.nopadding {
+    padding: 0px !Important;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 	margin:0;
@@ -1652,7 +1658,7 @@ background: url(../images/se.png) no-repeat 0px;
 	  min-height: 192px;
 	}
 }
-@media(max-width:1024px){
+@media(max-width:700px){
 	.logo a img {
 	  margin-top: 3em;
 	}
@@ -1806,7 +1812,7 @@ background: url(../images/se.png) no-repeat 0px;
 	  padding-bottom: .5em;
 	}
 }
-@media(max-width:768px){
+@media (max-width:1200px) and (min-width:700px) {
 	.nav > li > a {
 	  margin: 0 20px !important;
 	  font-size: 1.2em;
