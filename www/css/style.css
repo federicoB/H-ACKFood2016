@@ -18,7 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     padding: 0px !Important;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'lemonYellowSun';
 	margin:0;
 	padding:0;
 	background:#ffffff;
@@ -2311,7 +2311,7 @@ background: url(../images/se.png) no-repeat 0px;
 	.copyright {
 	  padding: 1.3em 0;
 	}
-	.contact-content input[type="text"]{
+	.contact-content input[type="text"] {
 	  margin: 2% 0% 0 0;
 	}
 	.contact iframe {
