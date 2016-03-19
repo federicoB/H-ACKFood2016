@@ -1610,23 +1610,6 @@ background: url(../images/se.png) no-repeat 0px;
   width:100%;
   margin:2em 0 0em 0
 }
-/*--/contact--*/
-/*--/inner-pages--*/
-/*--top-nav--*/
-#toTop {
-  display: none;
-  text-decoration: none;
-  position: fixed;
-  bottom: 14px;
-  right: 3%;
-  overflow: hidden;
-  width: 40px;
-  height: 40px;
-  border: none;
-  text-indent: 100%;
-  background: url("../images/to-top1.png") no-repeat 0px 0px;
-}
-/*--/top-nav--*/
 /*----responsive-menu-start--*/
 @media(max-width:1440px){
 	.rslides h3 {
