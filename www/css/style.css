@@ -2653,4 +2653,10 @@ background: url(../images/se.png) no-repeat 0px;
     }
 }
 
+.yellowBorder {
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1vmax;
+}
+
 
