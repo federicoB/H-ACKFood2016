@@ -3,6 +3,14 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@font-face {
+    font-family: arsenaleWhite;
+    src: url('../fonts/arsenale_white/arsenale_white.ttf');
+}
+@font-face {
+    font-family: lemonYellowSun;
+    src: url('../fonts/dk_lemon_yellow_sun/dk_lemon_yellow_sun.otf');
+}
 body{
     font-family: 'Open Sans', sans-serif;
 	margin:0;
