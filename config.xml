@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.github.federicoB.WebAppLab" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.github.federicoB.MangioDaBio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Mangio da bio</name>
     <description>
-        
+        Entra nella nostra community e mangerai da bio.
     </description>
     <author email="federicobertani96@gmail.com" href="https://github.com/federicoB">
         Federico Bertani
