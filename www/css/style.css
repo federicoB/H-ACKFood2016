@@ -596,6 +596,7 @@ color: #333333;
 }
 
 .no-touch .cs-style-3 figure:hover img,
+.no-touch .cs-style-3 figure:focus,
 .cs-style-3 figure.cs-hover img {
 	-webkit-transform: translateY(-50px);
 	-moz-transform: translateY(-50px);
@@ -604,7 +605,7 @@ color: #333333;
 }
 
 .cs-style-3 figcaption {
-	height: 84px;
+	height: 75%;
 	  width: 100%;
 	top: auto;
 	bottom: 0;
@@ -668,7 +669,7 @@ color: #333333;
 	}
 	.cs-style-3 figcaption {
 	  width: 100%;
-	  height: 85px;
+	  height: 75%;
 	}
 	.grid {
  		 padding-bottom: 1em;
