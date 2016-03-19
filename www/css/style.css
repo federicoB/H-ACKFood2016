@@ -139,7 +139,7 @@ a i.google:hover {
   padding: .3em 0;
 }
 .grid__item.color-11:hover {
-  box-sizing: 0;
+  box-sizing: content-box;
   border-top: 0 !important;
 }
 /*--boostrap-nav--*/
@@ -307,7 +307,7 @@ position: absolute;
 }
 
 .cs-style-3 figcaption {
-	height: 100px;
+	height: 75%;
 	width: 100%;
 	top: auto;
 	bottom: 0;
@@ -648,7 +648,7 @@ color: #333333;
 }
 @media(max-width:768px){
 	.cs-style-3 figcaption {
-	  height: 80px;
+	  height: 75%;
 	  }
 }
 @media(max-width:640px){
@@ -2305,7 +2305,7 @@ background: url(../images/se.png) no-repeat 0px;
 	.copyright {
 	  padding: 1.3em 0;
 	}
-	.contact-content input[type="text"],{
+	.contact-content input[type="text"]{
 	  margin: 2% 0% 0 0;
 	}
 	.contact iframe {
