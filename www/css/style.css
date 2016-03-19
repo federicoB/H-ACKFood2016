@@ -745,7 +745,7 @@ color: #333333;
 }
 .news-grid a h4{
   color: #BE2E2E;
-  font-size: 16px;
+  font-size: 1.5em;
   font-weight: 400;
   margin: 0 0 .3em 0;
   margin-bottom: 0;
@@ -756,14 +756,14 @@ color: #333333;
 }
 .news-grid span {
   color: #A3A3A3;
-  font-size: 11px;
+  font-size: 1.2em;
   line-height: 1.7em;
   display: block;
   margin-bottom: 1.2em;
 }
 .news-info p {
   color: #333333;
-  font-size: 13px;
+  font-size: 1.4em;
   margin: 0;
   line-height: 1.8em;
   font-weight: 400;
