@@ -3,6 +3,6 @@
  */
 $(document).ready(function() {
     $("figure").on('touchstart', function(){
-        $(this).hover();
+        $(this).get(0).hover();
     });
 });
