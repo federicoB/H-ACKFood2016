@@ -2717,3 +2717,7 @@ background: url(../images/se.png) no-repeat 0px;
     width: 60%;
 }
 
+#nostroScopo {
+    margin-bottom: 10vmax !important;
+}
+
