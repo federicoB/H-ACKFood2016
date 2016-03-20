@@ -2035,6 +2035,7 @@ background: url(../images/se.png) no-repeat 0px;
 	  margin: 0;
 	}
 	.news-grid a h4 {
+        margin-top: 6vmax;
 	  padding-top: 0;
 	}
 	.footer-left ul li {
