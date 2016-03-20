@@ -23,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery.min.js"> </script>
 <script src="js/bootstrap.js"></script>
 <script src="js/modernizr.custom.js"></script>
+    <script src="js/custom.js"></script>
 <!-- /js -->
 <!--fonts-->
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -91,54 +92,50 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="single">
 			<div class="sing-img-text">
-				<img src="images/3.jpg" class="img-responsive" alt=" ">
+				<img id="img-cena" src="images/CENA1.png" class="img-responsive" alt=" ">
 				<div class="sing-img-text1">
-					<h3>Nam libero tempore, cum soluta nobis est eligendi</h3>
+					<h3>Polentata da Gianni</h3>
 						<div class="admin-tag1">
-							<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+							<p>Creata da <a href="single.html">Gianni</a>  | <a href="single.html">10 Comments</a></p>
 						</div>
-					<p class="est">Maecenas et laoreet neque. Aenean tempus feugiat eros, eu convallis ligula tincidunt a. Nam facilisis enim at augue viverra ultrices. Etiam nec mollis est, non pulvinar arcu. Cras adipiscing nisi leo, non faucibus est commodo in. Integer nec erat convallis, cursus magna et, egestas odio. Donec nec quam nibh. Nam ante ipsum, sollicitudin sed augue sit amet, accumsan accumsan felis. Vivamus laoreet ligula mi.
-                    </p>
+					<p class="est">L'appuntamento mensile da Gianni nella sua tenuta a Roncade si terrà anche questo mese, precisamente il 26. La cena questa volta sarà a base di polenta, prodotta in casa dal padrone...</p>
 					<div class="com">
 						<h3 class="commant">Partecipanti</h3>
 						<ul class="media-list">
 						  <li class="media">
 							<div class="media-left">
 							  <a href="#">
-								<img class="media-object" src="images/s1.jpg" alt="" />
+								<img class="media-object img-comment" src="images/s1.jpg" alt="" />
 							  </a>
 							</div>
 							<div class="media-body">
-							  <h4 class="media-heading">Simona</h4>
-							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus 
-							  scelerisque ante sollicitudin commodo.
-							  <a href="#">Reply</a>
+                                <h4 class="media-heading">Simona</h4>
+							    Compro sempre prodotti proveniente dalla tenuta di Gianni, non vedo l'ora di sentire la sua storia, come lavora.
+							  <a href="#">Rispondi</a>
 							</div>
 						  </li>
 						  <li class="media">
 							<div class="media-left">
 							  <a href="#">
-								<img class="media-object" src="images/s2.jpg" alt="" />
+								<img class="media-object img-comment" src="images/s2.jpg" alt="" />
 							  </a>
 							</div>
 							<div class="media-body">
 							  <h4 class="media-heading">Sandra</h4>
-							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus 
-							  scelerisque ante sollicitudin commodo.
-							  <a href="#">Reply</a>
+							   Un'occasione unica per mostrare madre natura al mio figlioletto.
+							  <a href="#">Rispondi</a>
 							</div>
 						  </li>
 						  <li class="media">
 							<div class="media-left">
 							  <a href="#">
-								<img class="media-object" src="images/s3.jpg" alt="" />
+								<img class="media-object img-comment" src="images/s3.jpg" alt="" />
 							  </a>
 							</div>
 							<div class="media-body">
-							  <h4 class="media-heading">Rita</h4>
-							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-							  scelerisque ante sollicitudin commodo.
-							  <a href="#">Reply</a>
+							  <h4 class="media-heading">Gino</h4>
+							    Porto il dessert a base di miele bio!
+							  <a href="#">Rispondi</a>
 							</div>
 						  </li>
 						</ul>
@@ -150,20 +147,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="blog-right1">
 					<div class="search11 categories">
 						<h3>Partecipa</h3>
-                        <h4>Adotta un ingrediente</h4>
+                        <h4>Porta un ingrediente</h4>
                         <ul>
-                            <li><a href="#">Aliquam dapibus tincidunt</a></li>
-                            <li><a href="#">Donec sollicitudin molestie</a></li>
-                            <li><a href="#">Fusce feugiat malesuada odio</a></li>
+                            <li><a href="#">Polenta</a></li>
+                            <li><a href="#">Limone</a></li>
+                            <li><a href="#">Alici</a></li>
                         </ul>
-						<form>
 							<select class="form-control">
-                                <option value="Ingrediente 1">Ingrediente 1</option>
-                                <option value="Ingrediente 2">Ingrediente 2</option>
-                                <option value="Ingrediente 3">Ingrediente 3</option>
+                                <option value="Ingrediente 1">Limone</option>
                             </select>
-                            <button type="submit" class="btn btn-block btn-success">Partecipa</button>
-						</form>
+                            <button type="submit" id="partecipa" class="btn btn-block btn-success">Partecipa</button>
+
 					</div>
                     <hr>
 					<div class="related-posts">

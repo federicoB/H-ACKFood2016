@@ -2660,6 +2660,12 @@ background: url(../images/se.png) no-repeat 0px;
     text-align: center;
 }
 
+.img-comment{
+    width:70px;
+    height:70px;
+}
+
+
 @media (max-width: 500px) {
     .ricettaCaption {
         height: 15vmax;
