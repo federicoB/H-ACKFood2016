@@ -304,10 +304,6 @@ position: absolute;
 	transition: transform 0.4s;
 }
 
-.no-touch .cs-style-3 figure:hover img,
-.cs-style-3 figure.cs-hover img {
-}
-
 .cs-style-3 figcaption {
 	height: 75%;
 	width: 100%;
@@ -590,9 +586,6 @@ color: #333333;
 	transition: transform 0.4s;
 }
 
-.no-touch .cs-style-3 figure:hover img,
-.cs-style-3 figure.cs-hover img {
-}
 
 .cs-style-3 figcaption {
 	height: 75%;
@@ -2665,5 +2658,24 @@ background: url(../images/se.png) no-repeat 0px;
     padding-top: 2vmax;
     font-size: 3rem;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .ricettaCaption {
+        height: 15vmax;
+        padding-left: 2vmax;
+        padding-right: 2vmax;
+        padding-top: 0.5vmax;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px) {
+    .ricettaCaption {
+        height: 25vmax;
+        font-size: 2rem;
+        padding-left: 2vmax;
+        padding-right: 2vmax;
+        padding-top: 0.5vmax;
+    }
 }
 
