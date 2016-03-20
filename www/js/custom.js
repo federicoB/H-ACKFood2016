@@ -8,6 +8,6 @@ $(document).ready(function() {
     
     $('#partecipa').on('click', function () {
         $("#img-cena").attr("src", "images/CENA2.png");
-        window.scrollTo(0, 0);
+       // window.scrollTo(0, 0);
     })
 });
