@@ -2657,3 +2657,16 @@ background: url(../images/se.png) no-repeat 0px;
     border-width: 1vmax;
 }
 
+.greenBorder {
+    border-style: solid;
+    border-color: #A9B41A;
+    border-width: 1vmax;
+}
+
+.brownBorder {
+    border-style: solid;
+    border-color: #634234;
+    border-width: 1vmax;
+}
+
+
