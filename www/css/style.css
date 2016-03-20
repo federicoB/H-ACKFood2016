@@ -141,7 +141,7 @@ a i.google:hover {
   margin: 2em 0 0
 }
 .header {
-  background-color: #bb1e16;
+  background-color: #A9B41A;
   color: #fff;
   padding: .3em 0;
 }
@@ -193,7 +193,7 @@ ul.nav.navbar-nav li a.active {
   display: inline-block !important;
 }	
 .navbar-default {
-  background-color: #bb1e16;
+  background-color: #A9B41A;
   margin-bottom: 0;
     border: none;
 }
@@ -2655,11 +2655,14 @@ background: url(../images/se.png) no-repeat 0px;
 }
 
 .ricettaCaption {
+    height: 9vmax;
     max-width: 100%;
     width: 100%;
     background-color: #bb1e16;
     color: white;
-    padding: 3vmax;
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+    padding-top: 2vmax;
     font-size: 3rem;
     text-align: center;
 }
