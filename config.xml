@@ -2,7 +2,7 @@
 <widget id="com.github.federicoB.MangioDaBio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Mangio da bio</name>
     <description>
-        Entra nella nostra community e mangerai da bio.
+        Entra nella nostra community e mangerai da Bio.
     </description>
     <author email="federicobertani96@gmail.com" href="https://github.com/federicoB">
         Federico Bertani
