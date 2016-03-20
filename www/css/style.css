@@ -2685,3 +2685,24 @@ background: url(../images/se.png) no-repeat 0px;
     }
 }
 
+.moreMarginTop {
+    margin-top: 17vh;
+}
+
+.bigger {
+    font-size: 3rem;
+}
+
+#ultimeCene {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+#divisioneCene {
+    background-color: #A9B41A;
+    height: 0.5vh;
+
+}
+
