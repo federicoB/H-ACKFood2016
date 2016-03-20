@@ -45,7 +45,7 @@ padding:0;
 }
 /*--header--*/
 .banner{
-	background: url('../images/banner14.jpg') no-repeat 0px 0px;
+	background: url('../images/cover.png') no-repeat 0px 0px;
 	min-height:670px;
 	background-size:cover;
 }
