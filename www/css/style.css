@@ -2706,3 +2706,14 @@ background: url(../images/se.png) no-repeat 0px;
 
 }
 
+.CosaFacciamoConteiner {
+    height: 3vmax;
+    width: 3vmax;
+}
+
+.bolloImage {
+    margin:20%;
+    height: 60%;
+    width: 60%;
+}
+
